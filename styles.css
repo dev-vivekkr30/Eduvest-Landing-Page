@@ -1,0 +1,147 @@
+/* Eduvest Landing Page Custom Styles */
+
+/* Hero Section Custom Styles */
+#hero-section .badge {
+    font-size: 14px;
+    font-weight: 300 !important;
+    letter-spacing: 0.01em;
+    background: #FFD800;
+    background: linear-gradient(90deg, rgba(255, 216, 0, 1) 0%, rgba(255, 238, 143, 1) 100%);
+    width: fit-content;
+    border: 1px solid #FFD800;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+#hero-section h1 span {
+    color: #ffb347;
+}
+
+#hero-section .card {
+    border-radius: 1.25rem;
+    box-shadow: 0 6px 32px 0 rgba(44, 62, 80, 0.10);
+}
+.primary-btn{
+    background-color: #FE7F00;
+    color: #fff;
+}
+#hero-section .list-group-item {
+    background: #F9FAFB;
+    border: none;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+#hero-section .list-group-item:hover{
+    background: #f2f2f3;
+    transform: scale(1.025);
+}
+
+#hero-section .list-group-item.active {
+    color: #000;
+    background: #FFD800 !important;
+    background: linear-gradient(90deg, rgba(255, 216, 0, 1) 0%, rgba(255, 238, 143, 1) 100%) !important;
+    border: 1px solid #FFD800 !important;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    transform: scale(1.035);
+}
+
+#hero-section .card-body>.bg-light {
+    background: #eaffea !important;
+    border: 1px solid #b2f2bb;
+}
+
+/* Financial Journey Calculator Custom Styles */
+#financial-journey-story{
+    background-color: #F3F8FE;
+}
+#financial-journey-calculator .card {
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08);
+}
+
+#financial-journey-calculator .form-control-lg {
+    border-radius: 0.75rem;
+    font-size: 1.1rem;
+}
+
+#financial-journey-calculator svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Action Center Custom Styles */
+#action-center .card {
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08);
+    transition: transform 0.12s;
+}
+
+#action-center .card:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 32px 0 rgba(44, 62, 80, 0.13);
+}
+
+.btn-pink {
+    background: #e75480;
+    color: #fff;
+}
+
+.btn-pink:hover {
+    background: #d13b6b;
+    color: #fff;
+}
+
+.btn-blue {
+    background: #2d5eff;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background: #1a3fa6;
+    color: #fff;
+}
+
+.btn-purple {
+    background: #8e44ad;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background: #6c3483;
+    color: #fff;
+}
+
+.btn-green {
+    background: #00b894;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background: #009e7a;
+    color: #fff;
+}
+
+/* Reminders & Milestones Custom Styles */
+#reminders-milestones .card {
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 24px 0 rgba(44, 62, 80, 0.08);
+}
+
+#reminders-milestones .btn-outline-primary {
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+#reminders-milestones .rounded-4 {
+    border-radius: 1.25rem !important;
+}
+
+#reminders-milestones .mt-4.p-4 {
+    background: #f6f2ff !important;
+}

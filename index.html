@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduvest - Secure Their Dreams</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header/Navbar -->
+  <header id="main-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/logo.svg" alt="Eduvest Logo" class="me-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="actionCenterDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Action Center
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="actionCenterDropdown">
+                <li><a class="dropdown-item" href="#action-center">Personalized Plans</a></li>
+                <li><a class="dropdown-item" href="#reminders-milestones">Reminders & Milestones</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="literacyHubDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Literacy Hub
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="literacyHubDropdown">
+                <li><a class="dropdown-item" href="#">Guides</a></li>
+                <li><a class="dropdown-item" href="#">Resources</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <!-- <a href="#" class="text-decoration-none text-dark me-2">Sign In</a> -->
+            <a href="#" class="btn primary-btn rounded-pill px-3 fw-medium shadow-sm">Book Consultation <span
+                class="ms-1">→</span></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left: Text Content -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <span class="badge rounded-pill bg-warning text-dark d-flex align-items-center gap-1"><img
+              src="images/star.svg" class="me-1"> Begin Your Child's Journey</span>
+          <h1 class="display-4 fw-bold mb-2" style="line-height: 1.1;">
+            Secure Their <span
+              style="color: #FE7F00; padding-bottom: -4px; border-bottom: 2px solid #FE7F00;">Dreams</span>
+          </h1>
+          <h4 class="fw-semibold mb-3" style="color: #222;">Invest Early in Education</h4>
+          <p class="mb-4 text-secondary">Give your child the best start in life. Our story-driven approach makes
+            financial planning for education simple, engaging, and effective.</p>
+          <a href="#" class="btn btn-dark btn-lg rounded-pill px-4">Start Your Journey <span class="ms-1">→</span></a>
+        </div>
+        <!-- Right: Timeline Card -->
+        <div class="col-lg-6 d-flex justify-content-lg-end justify-content-center">
+          <div class="card w-75 shadow-lg border-0">
+            <div class="card-body p-4">
+              <h5 class="fw-bold mb-4 text-center">Your Child's Growth Timeline</h5>
+              <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                  <span>Age 3 <span class="text-muted small d-block">Early Learning</span></span>
+                  <span class="fw-semibold">₹50,000/year</span>
+                </li>
+                <li class="list-group-item active d-flex justify-content-between align-items-center border-0"
+                  style="background: #fffbe6; border-radius: 8px;">
+                  <span>Age 10 <span class="text-muted small d-block">Primary School</span></span>
+                  <span class="fw-semibold">₹1,20,000/year</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                  <span>Age 16 <span class="text-muted small d-block">High School</span></span>
+                  <span class="fw-semibold">₹2,50,000/year</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 ">
+                  <span>Age 18 <span class="text-muted small d-block">College Prep</span></span>
+                  <span class="fw-semibold">₹5,00,000/year</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                  <span>Age 22 <span class="text-muted small d-block">Graduate</span></span>
+                  <span class="fw-semibold text-success">Dream Achieved!</span>
+                </li>
+              </ul>
+              <div class="bg-light rounded-3 p-3 text-center mt-2">
+                <div class="mb-1 small">Start investing ₹15,000/month today</div>
+                <div class="fw-bold text-success" style="font-size: 1.2rem;">Save ₹25 Lakhs by graduation!
+                  <span>🎓</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financial Journey Story -->
+  <section id="financial-journey-story" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left: Story Carousel -->
+        <div class="col-lg-7">
+          <h2 class="fw-bold mb-3" style="color: #111827;">Your Child's <span style="color: #030C68;">Financial
+              Journey</span></h2>
+          <p class="mb-4 text-secondary">Follow Aanya's story and discover how early planning can secure your child's
+            educational dreams</p>
+          <div id="familyStoryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators mb-0">
+              <button type="button" data-bs-target="#familyStoryCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#familyStoryCarousel" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#familyStoryCarousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#familyStoryCarousel" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#familyStoryCarousel" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner rounded-4 shadow-sm bg-white p-4">
+              <div class="carousel-item active">
+                <div class="text-center">
+                  <h5 class="fw-semibold mb-1">Meet Aanya & Her Parents 👋</h5>
+                  <div class="text-muted mb-2">A Relatable Family Story</div>
+                  <p class="mb-0">Meet the Sharmas - Raj, Priya, and their bright 8-year-old daughter Aanya. Like many
+                    families, they want the best education for their child but worry about rising costs.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="text-center">
+                  <h5 class="fw-semibold mb-1">The Dream</h5>
+                  <div class="text-muted mb-2">Aanya's Career Aspirations</div>
+                  <p class="mb-0">Aanya dreams of becoming a doctor. She's passionate about helping people and excels in
+                    science. Her parents want to support her dream, but medical education costs are daunting.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="text-center">
+                  <h5 class="fw-semibold mb-1">The Challenge</h5>
+                  <div class="text-muted mb-2">Rising Education Costs</div>
+                  <p class="mb-0">Medical education in India costs ₹50-80 lakhs. With inflation, this could be ₹1.2
+                    crores by the time Aanya graduates high school. How will they afford it?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="text-center">
+                  <h5 class="fw-semibold mb-1">The Solution</h5>
+                  <div class="text-muted mb-2">Early Investment Discovery</div>
+                  <p class="mb-0">The Sharmas discover Eduvest. By starting early with just ₹8,000/month, they can build
+                    a corpus of ₹1.5 crores through the power of compounding.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="text-center">
+                  <h5 class="fw-semibold mb-1">The Result</h5>
+                  <div class="text-muted mb-2">Dream Achieved</div>
+                  <p class="mb-0">10 years later, Aanya gets admitted to her dream medical college. Her parents are
+                    proud and financially prepared. Their early planning made all the difference!</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+              <button class="btn btn-outline-secondary btn-sm rounded-pill px-3" type="button"
+                data-bs-target="#familyStoryCarousel" data-bs-slide="prev">Previous</button>
+              <button class="btn btn-dark btn-sm rounded-pill px-3" type="button" data-bs-target="#familyStoryCarousel"
+                data-bs-slide="next">Next</button>
+            </div>
+          </div>
+        </div>
+        <!-- Right: Family Image, changes with carousel -->
+        <div class="col-lg-5">
+          <div class="position-relative">
+            <div class="carousel slide h-100" style="overflow: hidden; border-radius: 12px;" id="familyImageCarousel"
+              data-bs-ride="carousel" data-bs-interval="5000">
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                  <img src="images/slide1.jpg" alt="Family 1"
+                    class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="images/slide2.jpg" alt="Family 2"
+                    class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="images/slide3.jpg" alt="Family 3"
+                    class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="images/slide4.jpg" alt="Family 4"
+                    class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
+                </div>
+                <div class="carousel-item h-100">
+                  <img src="images/slide5.jpg" alt="Family 5"
+                    class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financial Journey Calculator -->
+  <section id="financial-journey-calculator" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="fw-bold mb-4" style="color: #1a237e;">Calculate <span style="color: #2d5eff;">Financial Journey</span>
+      </h2>
+      <p class="mb-5 text-secondary">See what's possible with your investment</p>
+      <ul class="nav nav-tabs mb-4" id="calcTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="fd-tab" data-bs-toggle="tab" data-bs-target="#fd-calculator" type="button"
+            role="tab" aria-controls="fd-calculator" aria-selected="true">FD Calculator</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="mf-tab" data-bs-toggle="tab" data-bs-target="#mf-calculator" type="button"
+            role="tab" aria-controls="mf-calculator" aria-selected="false">Mutual Funds Calculator</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="fees-tab" data-bs-toggle="tab" data-bs-target="#fees-prediction" type="button"
+            role="tab" aria-controls="fees-prediction" aria-selected="false">Future Fees Prediction</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="calcTabsContent">
+        <!-- FD Calculator -->
+        <div class="tab-pane fade show active" id="fd-calculator" role="tabpanel" aria-labelledby="fd-tab">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <div class="card bg-light shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                  <form id="fdCalcForm">
+                    <div class="mb-3">
+                      <label for="fdAmount" class="form-label fw-semibold">Deposit Amount (₹)</label>
+                      <input type="number" class="form-control form-control-lg" id="fdAmount" placeholder="100000"
+                        min="1000">
+                    </div>
+                    <div class="mb-3">
+                      <label for="fdRate" class="form-label fw-semibold">Interest Rate (%)</label>
+                      <input type="number" class="form-control form-control-lg" id="fdRate" placeholder="7" min="0"
+                        max="20" step="0.01">
+                    </div>
+                    <div class="mb-3">
+                      <label for="fdYears" class="form-label fw-semibold">Tenure (years)</label>
+                      <input type="number" class="form-control form-control-lg" id="fdYears" placeholder="5" min="1"
+                        max="20">
+                    </div>
+                    <div class="rounded-3 p-3 mb-3" style="background-color: #FFF2E6; border: 1px solid #FFC48A;">
+                      <div class="small mb-1">Maturity Amount:</div>
+                      <div class="fw-bold" style="font-size: 2rem; color: #E77400;"><span id="fdResultValue">₹0</span>
+                      </div>
+                      <div class="small text-muted"><span id="fdResultPeriod">Interest Earned: ₹0</span></div>
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg rounded-pill w-100">Calculate</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-lg-center justify-content-center">
+              <div class="d-flex align-items-center justify-content-center" style="height:70%; width: 70%;">
+                <canvas id="fdPieChart" width="320" height="320"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Mutual Funds Calculator -->
+        <div class="tab-pane fade" id="mf-calculator" role="tabpanel" aria-labelledby="mf-tab">
+          <ul class="nav nav-pills mb-4" id="mfTypeTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="lumpsum-tab" data-bs-toggle="pill" data-bs-target="#lumpsum-calc"
+                type="button" role="tab" aria-controls="lumpsum-calc" aria-selected="true">Lumpsum</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="sip-tab" data-bs-toggle="pill" data-bs-target="#sip-calc" type="button"
+                role="tab" aria-controls="sip-calc" aria-selected="false">SIP</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="stepup-tab" data-bs-toggle="pill" data-bs-target="#stepup-calc" type="button"
+                role="tab" aria-controls="stepup-calc" aria-selected="false">Step-up SIP</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="mfTypeTabsContent">
+            <!-- Lumpsum Calculator -->
+            <div class="tab-pane fade show active" id="lumpsum-calc" role="tabpanel" aria-labelledby="lumpsum-tab">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                  <div class="card bg-light shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <form id="lumpsumCalcForm">
+                        <div class="mb-3">
+                          <label for="lumpsumAmount" class="form-label fw-semibold">Investment Amount (₹)</label>
+                          <input type="number" class="form-control form-control-lg" id="lumpsumAmount"
+                            placeholder="100000" min="1000">
+                        </div>
+                        <div class="mb-3">
+                          <label for="lumpsumRate" class="form-label fw-semibold">Expected Return Rate (%)</label>
+                          <input type="number" class="form-control form-control-lg" id="lumpsumRate" placeholder="12"
+                            min="0" max="20" step="0.01">
+                        </div>
+                        <div class="mb-3">
+                          <label for="lumpsumYears" class="form-label fw-semibold">Investment Period (years)</label>
+                          <input type="number" class="form-control form-control-lg" id="lumpsumYears" placeholder="10"
+                            min="1" max="30">
+                        </div>
+                        <div class="rounded-3 p-3 mb-3" style="background-color: #FFF2E6; border: 1px solid #FFC48A;">
+                          <div class="small mb-1">Future Value:</div>
+                          <div class="fw-bold" style="font-size: 2rem; color: #E77400;"><span
+                              id="lumpsumResultValue">₹0</span></div>
+                        </div>
+                        <button type="button" class="btn btn-dark btn-lg rounded-pill w-100">Calculate</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-center justify-content-center">
+                  <div class="d-flex align-items-center justify-content-center" style="height:70%; width: 70%;">
+                    <canvas id="lumpsumPieChart" width="320" height="320"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SIP Calculator -->
+            <div class="tab-pane fade" id="sip-calc" role="tabpanel" aria-labelledby="sip-tab">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                  <div class="card bg-light shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <form id="sipCalcForm">
+                        <div class="mb-3">
+                          <label for="sipAmount" class="form-label fw-semibold">Monthly SIP Amount (₹)</label>
+                          <input type="number" class="form-control form-control-lg" id="sipAmount" placeholder="5000"
+                            min="500">
+                        </div>
+                        <div class="mb-3">
+                          <label for="sipRate" class="form-label fw-semibold">Expected Return Rate (%)</label>
+                          <input type="number" class="form-control form-control-lg" id="sipRate" placeholder="12"
+                            min="0" max="20" step="0.01">
+                        </div>
+                        <div class="mb-3">
+                          <label for="sipYears" class="form-label fw-semibold">Investment Period (years)</label>
+                          <input type="number" class="form-control form-control-lg" id="sipYears" placeholder="10"
+                            min="1" max="30">
+                        </div>
+                        <div class="rounded-3 p-3 mb-3" style="background-color: #FFF2E6; border: 1px solid #FFC48A;">
+                          <div class="small mb-1">Future Value:</div>
+                          <div class="fw-bold" style="font-size: 2rem; color: #E77400;"><span
+                              id="sipResultValue">₹0</span></div>
+                        </div>
+                        <button type="button" class="btn btn-dark btn-lg rounded-pill w-100">Calculate</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-center justify-content-center">
+                  <div class="d-flex align-items-center justify-content-center" style="height:70%; width: 70%;">
+                    <canvas id="sipPieChart" width="320" height="320"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Step-up SIP Calculator -->
+            <div class="tab-pane fade" id="stepup-calc" role="tabpanel" aria-labelledby="stepup-tab">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                  <div class="card bg-light shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <form id="stepupCalcForm">
+                        <div class="mb-3">
+                          <label for="stepupAmount" class="form-label fw-semibold">Initial Monthly SIP (₹)</label>
+                          <input type="number" class="form-control form-control-lg" id="stepupAmount" placeholder="5000"
+                            min="500">
+                        </div>
+                        <div class="mb-3">
+                          <label for="stepupIncrease" class="form-label fw-semibold">Annual Step-up (%)</label>
+                          <input type="number" class="form-control form-control-lg" id="stepupIncrease" placeholder="10"
+                            min="0" max="100" step="0.1">
+                        </div>
+                        <div class="mb-3">
+                          <label for="stepupRate" class="form-label fw-semibold">Expected Return Rate (%)</label>
+                          <input type="number" class="form-control form-control-lg" id="stepupRate" placeholder="12"
+                            min="0" max="20" step="0.01">
+                        </div>
+                        <div class="mb-3">
+                          <label for="stepupYears" class="form-label fw-semibold">Investment Period (years)</label>
+                          <input type="number" class="form-control form-control-lg" id="stepupYears" placeholder="10"
+                            min="1" max="30">
+                        </div>
+                        <div class="rounded-3 p-3 mb-3" style="background-color: #FFF2E6; border: 1px solid #FFC48A;">
+                          <div class="small mb-1">Future Value:</div>
+                          <div class="fw-bold" style="font-size: 2rem; color: #E77400;"><span
+                              id="stepupResultValue">₹0</span></div>
+                        </div>
+                        <button type="button" class="btn btn-dark btn-lg rounded-pill w-100">Calculate</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-center justify-content-center">
+                  <div class="d-flex align-items-center justify-content-center" style="height:70%; width: 70%;">
+                    <canvas id="stepupPieChart" width="320" height="320"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Future Fees Prediction -->
+        <div class="tab-pane fade" id="fees-prediction" role="tabpanel" aria-labelledby="fees-tab">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <div class="card bg-light shadow-sm border-0 rounded-4">
+                <div class="card-body p-4">
+                  <form id="feesCalcForm">
+                    <div class="mb-3">
+                      <label for="feesCurrent" class="form-label fw-semibold">Current Annual Fees (₹)</label>
+                      <input type="number" class="form-control form-control-lg" id="feesCurrent" placeholder="100000"
+                        min="1000">
+                    </div>
+                    <div class="mb-3">
+                      <label for="feesInflation" class="form-label fw-semibold">Expected Inflation Rate (%)</label>
+                      <input type="number" class="form-control form-control-lg" id="feesInflation" placeholder="8"
+                        min="0" max="20" step="0.01">
+                    </div>
+                    <div class="mb-3">
+                      <label for="feesYears" class="form-label fw-semibold">Years Until Admission</label>
+                      <input type="number" class="form-control form-control-lg" id="feesYears" placeholder="10" min="1"
+                        max="30">
+                    </div>
+                    <div class="rounded-3 p-3 mb-3" style="background-color: #FFF2E6; border: 1px solid #FFC48A;">
+                      <div class="small mb-1">Predicted Future Fees:</div>
+                      <div class="fw-bold" style="font-size: 2rem; color: #E77400;"><span id="feesResultValue">₹0</span>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg rounded-pill w-100">Calculate</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-lg-center justify-content-center">
+              <div class="d-flex align-items-center justify-content-center" style="height:70%; width: 70%;">
+                <canvas id="feesPieChart" width="320" height="320"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personalized Action Center -->
+  <section id="action-center" class="py-5" style="background-color: #F3F8FE;">
+    <div class="container">
+      <h2 class="fw-bold mb-4" style="color: #1a237e;">Personalized <span style="color: #2d5eff;">Action Center</span>
+      </h2>
+      <p class="mb-5 text-secondary">Get tailored plans based on your child's age, aspirations, and your financial goals
+      </p>
+      <div class="row g-4">
+        <!-- Plan for Pre-School -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0 rounded-4 text-center" style="background: #ffe3ec;">
+            <div class="card-body p-4">
+              <div class="mb-3" style="font-size: 2.2rem;">🧸</div>
+              <h5 class="fw-bold mb-2">Plan for Pre-School</h5>
+              <div class="mb-2 text-secondary small">Early childhood education planning for ages 2-6</div>
+              <div class="fw-semibold mb-2">Target Amount: <span style="color: #e75480;">₹5-8 Lakhs</span></div>
+              <div class="mb-2 small">Timeframe: <span class="fw-semibold">3-6 years</span></div>
+              <div class="mb-3 text-start small">
+                <span class="fw-semibold">Includes:</span>
+                <ul class="mb-0 ps-3">
+                  <li>Nursery admissions</li>
+                  <li>Activity classes</li>
+                  <li>Study materials</li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-pink rounded-pill w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <!-- Plan for K-12 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0 rounded-4 text-center" style="background: #e3f0ff;">
+            <div class="card-body p-4">
+              <div class="mb-3" style="font-size: 2.2rem;">📚</div>
+              <h5 class="fw-bold mb-2">Plan for K-12</h5>
+              <div class="mb-2 text-secondary small">Primary and secondary education planning</div>
+              <div class="fw-semibold mb-2">Target Amount: <span style="color: #2d5eff;">₹15-25 Lakhs</span></div>
+              <div class="mb-2 small">Timeframe: <span class="fw-semibold">5-12 years</span></div>
+              <div class="mb-3 text-start small">
+                <span class="fw-semibold">Includes:</span>
+                <ul class="mb-0 ps-3">
+                  <li>Tuition fees</li>
+                  <li>Books & activities</li>
+                  <li>Extra-curricular sessions</li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-blue rounded-pill w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <!-- Plan for College -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0 rounded-4 text-center" style="background: #f3e3ff;">
+            <div class="card-body p-4">
+              <div class="mb-3" style="font-size: 2.2rem;">🎓</div>
+              <h5 class="fw-bold mb-2">Plan for College</h5>
+              <div class="mb-2 text-secondary small">Higher education and professional courses</div>
+              <div class="fw-semibold mb-2">Target Amount: <span style="color: #8e44ad;">₹25-80 Lakhs</span></div>
+              <div class="mb-2 small">Timeframe: <span class="fw-semibold">8-15 years</span></div>
+              <div class="mb-3 text-start small">
+                <span class="fw-semibold">Includes:</span>
+                <ul class="mb-0 ps-3">
+                  <li>Tuition fees</li>
+                  <li>Accommodation</li>
+                  <li>International options</li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-purple rounded-pill w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <!-- Skill Development Funds -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm border-0 rounded-4 text-center" style="background: #e3fff3;">
+            <div class="card-body p-4">
+              <div class="mb-3" style="font-size: 2.2rem;">💡</div>
+              <h5 class="fw-bold mb-2">Skill Development Funds</h5>
+              <div class="mb-2 text-secondary small">Specialized training and skill enhancement</div>
+              <div class="fw-semibold mb-2">Target Amount: <span style="color: #00b894;">₹3-10 Lakhs</span></div>
+              <div class="mb-2 small">Timeframe: <span class="fw-semibold">2-8 years</span></div>
+              <div class="mb-3 text-start small">
+                <span class="fw-semibold">Includes:</span>
+                <ul class="mb-0 ps-3">
+                  <li>Coaching bootcamps</li>
+                  <li>Professional certifications</li>
+                  <li>Language courses</li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-green rounded-pill w-100">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Smart Reminders & Milestones -->
+  <section id="reminders-milestones" class="py-5" style="background-color: #F3F8FE;">
+    <div class="container">
+      <h2 class="fw-bold mb-4" style="color: #1a237e;">Smart <span style="color: #2d5eff;">Reminders & Milestones</span>
+      </h2>
+      <p class="mb-4 text-secondary">Stay on track with personalized notifications for important financial milestones
+      </p>
+      <div class="card shadow-sm border-0 rounded-4 mb-4">
+        <div class="card-body p-4">
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="text-center">
+                <div class="fw-bold mb-2">Child turns 3</div>
+                <div class="text-secondary small mb-3">Start education fund</div>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100">Set Reminder</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <div class="fw-bold mb-2">School admission</div>
+                <div class="text-secondary small mb-3">Review investment portfolio</div>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100">Set Reminder</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <div class="fw-bold mb-2">Class 10 completion</div>
+                <div class="text-secondary small mb-3">Plan for higher education</div>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100">Set Reminder</a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="text-center">
+                <div class="fw-bold mb-2">College application</div>
+                <div class="text-secondary small mb-3">Evaluate fund adequacy</div>
+                <a href="#" class="btn btn-outline-primary rounded-pill w-100">Set Reminder</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financial Literacy Hub Section -->
+  <section id="literacy-hub" class="py-5" style="background: #f7faff;">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-2" style="font-size: 2.5rem;">Financial Literacy <span
+          style="color: #7b61ff;">Hub</span></h2>
+      <div class="text-center mb-4 text-secondary" style="font-size: 1.2rem;">Interactive guides, gamified learning, and
+        practical tools to master education planning</div>
+      <ul class="nav nav-tabs justify-content-center mb-4" id="literacyHubTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button"
+            role="tab" aria-controls="quiz" aria-selected="true">Knowledge Quiz</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="community-tab" data-bs-toggle="tab" data-bs-target="#community" type="button"
+            role="tab" aria-controls="community" aria-selected="false">Community</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="literacyHubTabsContent">
+        <!-- Knowledge Quiz Tab -->
+        <div class="tab-pane fade show active" id="quiz" role="tabpanel" aria-labelledby="quiz-tab">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="card shadow-sm rounded-4 p-4 mb-4">
+                <div class="mb-2 text-secondary">Question 1 of 3</div>
+                <h4 class="fw-bold mb-3">Test Your Financial Knowledge</h4>
+                <div class="mb-2">Challenge yourself with these education planning questions</div>
+                <div class="progress mb-4" style="height: 6px;">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 33%;"></div>
+                </div>
+                <div class="mb-3 fw-semibold">What is the power of compounding?</div>
+                <div class="list-group mb-3">
+                  <label class="list-group-item">
+                    <input class="form-check-input me-2" type="radio" name="quizQ1" value="A">
+                    Interest earned on principal only
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-2" type="radio" name="quizQ1" value="B">
+                    Interest earned on both principal and previously earned interest
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-2" type="radio" name="quizQ1" value="C">
+                    A type of bank account
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-2" type="radio" name="quizQ1" value="D">
+                    A government scheme
+                  </label>
+                </div>
+                <button class="btn btn-primary rounded-pill px-4">Next</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Community Tab -->
+        <div class="tab-pane fade" id="community" role="tabpanel" aria-labelledby="community-tab">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6">
+              <div class="card shadow-sm rounded-4 p-4 mb-3">
+                <h5 class="fw-bold mb-2">Ask an Expert</h5>
+                <div class="mb-2 text-secondary">Get personalized advice from our financial planning experts</div>
+                <div class="bg-light rounded-3 p-3 mb-3">
+                  <div class="fw-semibold">Next Live Session</div>
+                  <div class="mb-1">"Planning for Medical Education Costs"</div>
+                  <div class="small text-primary">Tomorrow, 7:00 PM IST</div>
+                </div>
+                <button class="btn btn-gradient rounded-pill w-100 mb-2">Join Live Q&amp;A</button>
+                <button class="btn btn-outline-secondary rounded-pill w-100">Schedule 1-on-1 Consultation</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card shadow-sm rounded-4 p-4 mb-3">
+                <h5 class="fw-bold mb-2">Parent Community</h5>
+                <div class="mb-2 text-secondary">Connect with other parents on similar journeys</div>
+                <div class="bg-light rounded-3 p-3 mb-3">
+                  <div class="mb-2">"Just started planning for my 4-year-old's education. Any tips?"<br><span
+                      class="small text-secondary">- Priya M. • 2 hours ago</span></div>
+                  <div>"Share your experience with education loans vs investments"<br><span
+                      class="small text-secondary">- Rajesh K. • 5 hours ago</span></div>
+                </div>
+                <button class="btn btn-success rounded-pill w-100 mb-2">Join Community</button>
+                <button class="btn btn-outline-secondary rounded-pill w-100">Browse Discussions</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financial Services Section -->
+  <section id="financial-services" class="py-5" style="background: #eaf6ff;">
+    <div class="container">
+      <h2 class="fw-bold mb-2" style="color: #183153;">Financial <span style="color: #1a5cff;">Services</span></h2>
+      <div class="mb-4 text-secondary" style="font-size: 1.1rem; max-width: 700px;">Personalised solutions to smartly
+        secure your child's educational needs, guiding them on their journey to academic excellence.</div>
+      <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center align-items-stretch">
+        <!-- Fixed Deposits -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/piggy-bank.png" alt="Fixed Deposits">
+            </div>
+            <h5 class="fw-bold mb-1">Fixed Deposits</h5>
+            <div class="mb-1 text-primary small">Grow Your Savings Securely!</div>
+            <div class="mb-3 text-secondary small">Enjoy peace of mind with our tailor-made solutions that guarantee
+              returns on your investment, securing future educational expenses.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-primary">Invest Now <span class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- ETF Gold/Silver -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/gold-bars.png" alt="ETF Gold/Silver">
+            </div>
+            <h5 class="fw-bold mb-1">ETF Gold/Silver</h5>
+            <div class="mb-1 text-warning small">Diversify with Precious Metals!</div>
+            <div class="mb-3 text-secondary small">Invest in gold and silver ETFs to hedge against inflation and
+              diversify your education portfolio.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-warning">Invest Now <span class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- Mutual Funds -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/family--v2.png" alt="Mutual Funds"></div>
+            <h5 class="fw-bold mb-1">Mutual Funds</h5>
+            <div class="mb-1 text-success small">Diversify Your Investments for Success!</div>
+            <div class="mb-3 text-secondary small">Build a robust financial portfolio with dynamic mutual funds designed
+              to support your educational goals.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-success">Invest Now <span class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- Bonds -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/bond.png" alt="Bonds"></div>
+            <h5 class="fw-bold mb-1">Bonds</h5>
+            <div class="mb-1 text-info small">Stable Returns for Education!</div>
+            <div class="mb-3 text-secondary small">Secure your child's future with government and corporate bonds
+              offering stable and predictable returns.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-info">Invest Now <span class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- Education Loan -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/student-male--v2.png"
+                alt="Education Loan"></div>
+            <h5 class="fw-bold mb-1">Education Loan</h5>
+            <div class="mb-1 text-primary small">Invest in Knowledge!</div>
+            <div class="mb-3 text-secondary small">Access world-class education with flexible repayment options that fit
+              your future.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-primary">Apply Now <span class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- Insurance -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/umbrella.png" alt="Insurance"></div>
+            <h5 class="fw-bold mb-1">Insurance</h5>
+            <div class="mb-1 text-danger small">Secure Your Future!</div>
+            <div class="mb-3 text-secondary small">Protect your educational investments with comprehensive insurance
+              plans that provide a safe and secure future.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-danger">View Details <span
+                class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- NPS (nps vatsalya) -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/retirement.png" alt="NPS"></div>
+            <h5 class="fw-bold mb-1">NPS (nps vatsalya)</h5>
+            <div class="mb-1 text-secondary small">Plan for Long-Term Security!</div>
+            <div class="mb-3 text-secondary small">Benefit from the National Pension System's special education plans
+              for your child's future security.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-secondary">View Details <span
+                class="ms-1">→</span></a>
+          </div>
+        </div>
+        <!-- NPS (nps vatsalya) -->
+        <div class="col d-flex">
+          <div class="card flex-fill shadow-sm rounded-4 p-4 text-center h-100">
+            <div class="mb-3"><img src="https://img.icons8.com/color/48/000000/retirement.png" alt="NPS"></div>
+            <h5 class="fw-bold mb-1">Sukanya Samriddhi Yojana</h5>
+            <div class="mb-1 text-secondary small">Plan for Long-Term Security!</div>
+            <div class="mb-3 text-secondary small">Benefit from the National Pension System's special education plans
+              for your child's future security.</div>
+            <a href="#" class="fw-semibold text-decoration-none text-secondary">View Details <span
+                class="ms-1">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-light pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Logo & Description -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center mb-2">
+            <img src="https://i.imgur.com/6o5VbQp.png" alt="Eduvest Logo" width="36" height="36" class="me-2">
+            <span class="fw-bold fs-5" style="color: #ffb347;">Eduvest</span>
+          </div>
+          <div class="mb-3 small text-secondary" style="color: #b0b0b0 !important;">Empowering parents to secure their
+            children's educational dreams through smart financial planning and story-driven guidance.</div>
+          <div class="mb-2 small">
+            <span class="d-block mb-1"><i class="bi bi-telephone me-1"></i> +91 98765-43210</span>
+            <span class="d-block mb-1"><i class="bi bi-envelope me-1"></i> hello@eduvest.com</span>
+            <span class="d-block"><i class="bi bi-geo-alt me-1"></i> Mumbai, Maharashtra, India</span>
+          </div>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-2">
+          <div class="fw-semibold mb-2">Quick Links</div>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-decoration-none text-secondary">Interactive Journey</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Planning Tools</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Learning Resources</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Success Stories</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Book Consultation</a></li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div class="col-md-2">
+          <div class="fw-semibold mb-2">Resources</div>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-decoration-none text-secondary">Education Cost Calculator</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Investment Guides</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">FAQ & Help Center</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Download Mobile App</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Expert Consultations</a></li>
+          </ul>
+        </div>
+        <!-- Newsletter -->
+        <div class="col-md-4">
+          <div class="fw-semibold mb-2">Stay Updated</div>
+          <div class="small mb-2">Get tips for your child's financial future delivered to your inbox</div>
+          <form class="d-flex">
+            <input type="email" class="form-control rounded-start-pill" placeholder="Enter your email"
+              style="max-width: 220px;">
+            <button class="btn btn-warning rounded-end-pill ms-1 px-3" type="submit">→</button>
+          </form>
+        </div>
+      </div>
+      <hr class="my-4" style="border-color: #444;">
+      <div class="row">
+        <div class="col-md-8 small text-secondary">
+          © 2024 Eduvest. All rights reserved. | Made with <span style="color: #ffb347;">♥</span> for Indian families
+        </div>
+        <div class="col-md-4 text-md-end small">
+          <a href="#" class="text-secondary text-decoration-none me-3">Privacy Policy</a>
+          <a href="#" class="text-secondary text-decoration-none me-3">Terms of Service</a>
+          <a href="#" class="text-secondary text-decoration-none me-3">Cookie Policy</a>
+          <a href="#" class="text-secondary text-decoration-none">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lead Form Modal -->
+  <div class="modal fade" id="leadFormModal" tabindex="-1" aria-labelledby="leadFormModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-4">
+        <div class="modal-body w-100">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdg6gAS3BvHkCC6_7a1GW87GugKbda6_S47Fd0i7x8OdFXopQ/viewform?embedded=true"
+            width="100%" height="720px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
